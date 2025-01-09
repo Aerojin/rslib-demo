@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2021"],
+    "module": "ESNext",
+    "target": "esnext",
+    "noEmit": true,
+    "strict": true,
+    "jsx": "preserve",
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "useDefineForClassFields": true,
+    "allowImportingTsExtensions": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true, 
+    "outDir": "./build", 
+    "rootDir": "./src"  
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/*.vue", "src/shims-vue.d.ts"],
+  "exclude": ["node_modules"],
+}
