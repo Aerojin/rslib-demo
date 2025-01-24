@@ -67,6 +67,16 @@ const Template = (args, { argTypes }) => ({
 
 export const Normal = Template.bind({});
 
+Normal.parameters = {
+  docs: {
+    source: {
+      code: Template.toString(),
+      language: "javascript",
+      type: "auto",
+    },
+  },
+};
+
 Normal.args = {
   primary: true,
   label: "Button",
